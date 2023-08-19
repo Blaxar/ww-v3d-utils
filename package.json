@@ -1,0 +1,38 @@
+{
+  "name": "ww-v3d-utils",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Set of utilities to work on WideWorlds data for Le Village 3D (former Active Worlds universe)",
+  "main": "signs2usernames.js",
+  "scripts": {
+    "lint": "eslint --ext js './*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blaxar/ww-v3d-utils.git"
+  },
+  "keywords": [
+    "3D",
+    "universe",
+    "Active",
+    "Worlds",
+    "AW",
+    "RenderWare",
+    "RWX"
+  ],
+  "author": "Julien 'Blaxar' Bardagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Blaxar/ww-v3d-utils/issues"
+  },
+  "homepage": "https://github.com/Blaxar/ww-v3d-utils#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.8",
+    "typeorm": "^0.3.15",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
